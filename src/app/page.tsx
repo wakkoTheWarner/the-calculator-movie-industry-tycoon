@@ -1,8 +1,8 @@
 //src/app/pages.tsx
 "use client";
 
-import { useLanguage } from "./LanguageContext";
-import AffinityCalculator from "./AffinityCalculator";
+import { useLanguage } from "@/context/LanguageContext";
+import AffinityCalculator from "@/components/Calculator/AffinityCalculator";
 import Script from "next/script";
 
 export default function Home() {
